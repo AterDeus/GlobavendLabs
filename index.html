@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="grid-container">
+		<nav class="main-nav">
+			<div class="main-nav__menu">
+				<button class="main-nav__menu-button btn btn--icon">
+					<svg class="icon">
+						<use xlink:href="images/svg/symbols.svg#menu-left"></use>
+					</svg>
+				</button>
+			</div>
+			<ul class="main-nav__list">
+				
+				<li class="main-nav__item">
+					<a class="main-nav__home" href="#">
+						<svg class="icon">
+							<use xlink:href="images/svg/symbols.svg#dashboard"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="main-nav__item">
+					<a class="main-nav__layers" href="#">
+						<svg class="icon">
+							<use xlink:href="images/svg/symbols.svg#layers-3"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="main-nav__item">
+					<a class="main-nav__box" href="#">
+						<svg class="icon">
+							<use xlink:href="images/svg/symbols.svg#box-2"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="main-nav__item">
+					<a class="main-nav__delivery" href="#">
+						<svg class="icon">
+							<use xlink:href="images/svg/symbols.svg#delivery-fast-copy"></use>
+						</svg>
+					</a>
+				</li>
+				
+				<li class="main-nav__item">
+					<a class="main-nav__chart" href="#">
+						<svg class="icon">
+							<use xlink:href="images/svg/symbols.svg#chart-bar-33"></use>
+						</svg>
+					</a>
+				</li>
+				
+			</ul>
+		</nav>
+		<header class="main-header">
+			<div class="page-container">
+				<div class="search mr-auto">
+					<form action="">
+						<button class="search__button btn btn--icon">
+							<svg class="icon">
+								<use xlink:href="images/svg/symbols.svg#zoom-2"></use>
+							</svg>
+						</button>
+						<input type="text" class="search__input" placeholder="search">
+					</form>
+				</div>
+				<div class="user-menu">
+					<div class="user-menu__speed">
+						<button class="btn btn--icon">
+							<svg class="icon">
+								<use xlink:href="images/svg/symbols.svg#shape"></use>
+							</svg>
+						</button>
+					</div>
+					<div class="user-menu__notification user-menu__notification--new">
+						<button class="btn btn--icon">
+							<svg class="icon">
+								<use xlink:href="images/svg/symbols.svg#notification"></use>
+							</svg>
+						</button>
+
+					</div>
+					<button class="user-menu__info btn">
+						<div class="user-menu__avatar"><span class="user-menu__initials">MT</span></div>
+						<div class="user-menu__user">
+							<div class="user-menu__name">Michael Teasdale</div>
+							<div class="user-menu__description">globavendlabs-store</div>
+						</div>
+					</button>
+				</div>
+			</div>
+		</header>
+		<main class="main-page">
+			<div class="page-menu">
+				<div class="page-container">
+					<div class="page-menu__return mr-auto"><a href="#"  class="btn btn--simple btn--with-icon">(icon) Products</a></div>
+					<div class="page-menu__actions">
+						<div class="page-menu__action"><button class="btn btn--simple btn--with-icon">(icon) Return</button></div>
+						<div class="page-menu__action"><button class="btn btn--simple btn--with-icon">(icon) View</button></div>
+						<div class="page-menu__action menu-dropdown">
+							<button class="btn btn-simple dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More actions</button>
+						    <div class="dropdown-menu">
+						      <a class="dropdown-item" href="#">Action</a>
+						      <a class="dropdown-item" href="#">Another action</a>
+						    </div>
+						</div>
+						<div class="page-menu__action">
+							<button class="btn btn--icon">(icon)</button>
+							<button class="btn btn--icon">(icon)</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page-content">
+				<div class="page-container">
+					<div class="page-title">
+						<h1 class="page-title__header">Handmade Solid Gold Concave Heart Necklace</h1>
+						<div class="page-title__date">October 15th, 2017 at 2.18pm EST</div>
+					</div>
+					<div class="main-content">
+						<div class="row">
+							<div class="col-12">
+								<section class="block order-details">
+									<div class="block__header"><div class="block__title">Order details</div></div>
+									<div class="block__body"></div>
+									<div class="block__footer"></div>
+								</section>
+							</div>
+							<div class="col-12">
+								<section class="block customer-details">
+									<div class="block__header"><div class="block__title">Customer details</div></div>
+									<div class="block__body"></div>
+								</section>
+							</div>
+							<div class="col-12">
+								<section class="block source-address">
+									<div class="block__header"><div class="block__title">Source address</div></div>
+									<div class="block__body"></div>
+								</section>
+							</div>
+						</div>
+					</div>
+					<aside class="page-aside">
+						<div class="row">
+							<div class="col-6">
+								<section class="block delivery">
+									<div class="block__header"><div class="block__title">Est. delivery in</div></div>
+									<div class="block__body"></div>
+								</section>
+							</div>
+							<div class="col-6">
+								<section class="block carrier">
+									<div class="block__header"><div class="block__title">Carrier</div></div>
+									<div class="block__body"></div>
+								</section>
+							</div>
+							<div class="col-12">
+								<section class="block tracking-number">
+									<div class="block__header"><div class="block__title">Tracking number</div></div>
+									<div class="block__body"></div>
+								</section>
+							</div>
+							<div class="col-12">
+								<section class="block order-location">
+									<div class="block__header"><div class="block__title">Order location</div></div>
+									<div class="block__body"></div>
+								</section>
+							</div>
+						</div>
+					</aside>
+				</div>
+			</div>
+		</main>
+	</div>
+
+
+
+	<script src="js/libs.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
